@@ -4,8 +4,6 @@ def ask_question(question, answer):
     user_answer = input(question + " ")
     return user_answer.lower() == answer.lower()
 
-# How many galaxies are in the universe
-# Which Console do you think won the console wars?
 def main():
     questions = {
         "What is the capital of France?": "paris",
